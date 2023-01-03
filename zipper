@@ -1,0 +1,9 @@
+
+# Unzipping the sequence 
+strs = ['abs','bsd','mko','pop']
+sum(list(col) != sorted(col) for col in zip(*strs))
+
+#  making a dictionary using zip
+a_dict = dict(zip(fields, values))
+a_dict
+{'name': 'John', 'last_name': 'Doe', 'age': '45', 'job': 'Python Developer'}
